@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{261B1A3F-6549-4093-8E2A-1C979FD434A2}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BorrrowBook</RootNamespace>
+    <AssemblyName>BorrrowBook</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Book and Key Word.aspx" />
+    <Content Include="Book_Key Word.aspx" />
+    <Content Include="Book_Author.aspx" />
+    <Content Include="Book_Employee.aspx" />
+    <Content Include="Book_Publisher.aspx" />
+    <Content Include="BorrDelivering.aspx" />
+    <Content Include="borrower.aspx" />
+    <Content Include="borrowing.aspx" />
+    <Content Include="contacts.aspx" />
+    <Content Include="Eadress.aspx" />
+    <Content Include="Book and Employee .aspx" />
+    <Content Include="InsertClass.aspx" />
+    <Content Include="InsertSubClass.aspx" />
+    <Content Include="Class. Book.aspx" />
+    <Content Include="Key Word.aspx" />
+    <Content Include="employee.aspx" />
+    <Content Include="Publisher.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Adress.aspx" />
+    <Content Include="Book.aspx" />
+    <Content Include="Classification.aspx" />
+    <Content Include="SubClassification.aspx" />
+    <Content Include="Author.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Creat User.aspx" />
+    <Content Include="book and Author.aspx" />
+    <Content Include="Book and Publisher.aspx" />
+    <Content Include="Book and Borrower.aspx" />
+    <Content Include="Administrator.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Book and Key Word.aspx.cs">
+      <DependentUpon>Book and Key Word.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Book and Key Word.aspx.designer.cs">
+      <DependentUpon>Book and Key Word.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Book_Key Word.aspx.cs">
+      <DependentUpon>Book_Key Word.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Book_Key Word.aspx.designer.cs">
+      <DependentUpon>Book_Key Word.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Book_Author.aspx.cs">
+      <DependentUpon>Book_Author.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Book_Author.aspx.designer.cs">
+      <DependentUpon>Book_Author.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Book_Employee.aspx.cs">
+      <DependentUpon>Book_Employee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Book_Employee.aspx.designer.cs">
+      <DependentUpon>Book_Employee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Book_Publisher.aspx.cs">
+      <DependentUpon>Book_Publisher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Book_Publisher.aspx.designer.cs">
+      <DependentUpon>Book_Publisher.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BorrDelivering.aspx.cs">
+      <DependentUpon>BorrDelivering.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BorrDelivering.aspx.designer.cs">
+      <DependentUpon>BorrDelivering.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="borrower.aspx.cs">
+      <DependentUpon>borrower.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="borrower.aspx.designer.cs">
+      <DependentUpon>borrower.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="borrowing.aspx.cs">
+      <DependentUpon>borrowing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="borrowing.aspx.designer.cs">
+      <DependentUpon>borrowing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contacts.aspx.cs">
+      <DependentUpon>contacts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contacts.aspx.designer.cs">
+      <DependentUpon>contacts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eadress.aspx.cs">
+      <DependentUpon>Eadress.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eadress.aspx.designer.cs">
+      <DependentUpon>Eadress.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Book and Employee .aspx.cs">
+      <DependentUpon>Book and Employee .aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Book and Employee .aspx.designer.cs">
+      <DependentUpon>Book and Employee .aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="InsertClass.aspx.cs">
+      <DependentUpon>InsertClass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InsertClass.aspx.designer.cs">
+      <DependentUpon>InsertClass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InsertSubClass.aspx.cs">
+      <DependentUpon>InsertSubClass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InsertSubClass.aspx.designer.cs">
+      <DependentUpon>InsertSubClass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Class. Book.aspx.cs">
+      <DependentUpon>Class. Book.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Class. Book.aspx.designer.cs">
+      <DependentUpon>Class. Book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Key Word.aspx.cs">
+      <DependentUpon>Key Word.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Key Word.aspx.designer.cs">
+      <DependentUpon>Key Word.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="employee.aspx.cs">
+      <DependentUpon>employee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="employee.aspx.designer.cs">
+      <DependentUpon>employee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Publisher.aspx.cs">
+      <DependentUpon>Publisher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Publisher.aspx.designer.cs">
+      <DependentUpon>Publisher.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Adress.aspx.cs">
+      <DependentUpon>Adress.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adress.aspx.designer.cs">
+      <DependentUpon>Adress.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Book.aspx.cs">
+      <DependentUpon>Book.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Book.aspx.designer.cs">
+      <DependentUpon>Book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Classification.aspx.cs">
+      <DependentUpon>Classification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Classification.aspx.designer.cs">
+      <DependentUpon>Classification.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SubClassification.aspx.cs">
+      <DependentUpon>SubClassification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SubClassification.aspx.designer.cs">
+      <DependentUpon>SubClassification.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Author.aspx.cs">
+      <DependentUpon>Author.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Author.aspx.designer.cs">
+      <DependentUpon>Author.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Creat User.aspx.cs">
+      <DependentUpon>Creat User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Creat User.aspx.designer.cs">
+      <DependentUpon>Creat User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="book and Author.aspx.cs">
+      <DependentUpon>book and Author.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="book and Author.aspx.designer.cs">
+      <DependentUpon>book and Author.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Book and Publisher.aspx.cs">
+      <DependentUpon>Book and Publisher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Book and Publisher.aspx.designer.cs">
+      <DependentUpon>Book and Publisher.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Book and Borrower.aspx.cs">
+      <DependentUpon>Book and Borrower.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Book and Borrower.aspx.designer.cs">
+      <DependentUpon>Book and Borrower.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrator.aspx.cs">
+      <DependentUpon>Administrator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrator.aspx.designer.cs">
+      <DependentUpon>Administrator.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1640</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

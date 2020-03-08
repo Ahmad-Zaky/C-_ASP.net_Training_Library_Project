@@ -1,0 +1,5 @@
+c:\users\mohamed\documents\visual studio 2010\Projects\BorrrowBook\BorrrowBook\bin\BorrrowBook.dll
+c:\users\mohamed\documents\visual studio 2010\Projects\BorrrowBook\BorrrowBook\bin\BorrrowBook.pdb
+c:\users\mohamed\documents\visual studio 2010\Projects\BorrrowBook\BorrrowBook\obj\Debug\BorrrowBook.dll
+c:\users\mohamed\documents\visual studio 2010\Projects\BorrrowBook\BorrrowBook\obj\Debug\BorrrowBook.pdb
+C:\Users\mohamed\Documents\Visual Studio 2010\Projects\BorrrowBook\BorrrowBook\obj\Debug\BorrrowBook.csprojResolveAssemblyReference.cache
